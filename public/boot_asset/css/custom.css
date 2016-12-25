@@ -1,0 +1,327 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      /* background: #222222;*/
+         color:#BDBDBD;
+}
+
+h1,h2,h3,h4,h5,h6 ,p ,a,label
+{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+/*=====================bootstrap modification===============*/
+
+table {
+    background-color: #373535;
+    border-radius: 7px;
+}
+
+
+label {
+    color: #aaa7a7;
+}
+
+
+.btn{
+     margin-top: 10px;
+}
+
+form{
+    padding: 4%;
+    background-color: #373535;
+    border-radius: 10px;
+    border: 1px solid #545252;
+}
+
+
+
+.head_sec
+{
+        background: #373535;
+        
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        margin-bottom:10px;
+}
+
+.head_sec h3
+{
+  padding: 1%;
+  text-align: justify;
+}
+
+
+.detail_sec
+{
+        background: #373535;
+        
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+}
+
+.detail_sec p
+{
+  padding: 1%;
+  text-align: justify;
+}
+
+.order-table{
+    background: #45335e;
+}
+
+
+/*=================sign up===================*/
+
+#sign{
+  color: #aaa7a7;
+}
+
+
+#pro_h2{
+  margin-top: 0px;
+}
+
+/*==================admin dashboard==================*/
+
+#admin-body
+{
+  background: #222222;
+  
+}
+
+
+.navigation  a{
+	
+    color: #BDBDBD;
+    text-decoration: none;
+    background: #373535;
+
+}
+
+#search-btn 
+{
+  margin-top: 0px;
+}
+
+
+.admin-top .navbar-default {
+    background-color: #373535;
+     border:none;
+}
+
+.admin-top .form-control{
+    background-color: #6e6868;
+    border: 1px solid #777676;
+}
+
+.admin-top .navbar-default .navbar-nav>li>a {
+    color: #f66565;
+}
+
+
+
+
+
+/*======admint product ===========*/
+.edit-button
+{
+  float: left;
+  margin-right: 10px;
+      margin-left: 5px;
+}
+
+.del-button{
+ margin-top: 3px;
+}
+
+
+
+/*==employee===========*/
+
+    
+.panel-body {
+    
+    background: #222222;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #29435a;
+    border-color: #29435a;
+}
+
+
+
+/*============contact us =============*/
+.jumbotron {
+background: #358CCE;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+#h3  {
+text-align: center;
+}
+
+.public-form
+{
+  border: none;
+  background: none;
+}
+
+
+/*==home========*/
+header {
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+      background: #FF9800;
+    opacity: .3;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+}
+
+ #services
+ {
+  padding: 5%;
+ }
+
+ #services h2
+ {
+    color: #FF9800;
+ }
+
+ 
+
+ #services .glyphicon 
+ {
+  font-size: 44px;
+    color: #FF9800;
+ }
+
+#services h4
+{
+      color: #222222;
+    font-size: 30px;
+}
+
+
+/*==footer===========*/
+
+
+
+
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    background: #e8e7e6;
+    border-radius: 12px;
+    color: black;
+}
+
+
+/*================products========*/
+
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail > h4 {
+    padding: 7px 5px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.thumbnail h4 .info {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 0.6em;
+    padding-left: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 4px;
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    cursor:  pointer;
+}
+
+.thumbnail h4 .info > span {
+    margin-right: 10px;   
+}
+
+.thumbnail img {
+    width: 100%;
+}
+.thumbnail a.btn {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+.post-img-content {
+    background: #CDDC39;
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+
+}
+
+
+.content {
+    color: #5c5b5b;
+    margin-top: 21px;
+    text-align: justify;
+}
